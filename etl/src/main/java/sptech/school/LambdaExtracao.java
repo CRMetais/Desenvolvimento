@@ -31,7 +31,7 @@ public class LambdaExtracao implements RequestHandler<Object, String> {
 
             // Chamar endpoint ETL
             HttpRequest requisicao = HttpRequest.newBuilder()
-                    .uri(URI.create("http://192.168.0.16:8080/api/etl/full-extract"))
+                    .uri(URI.create("http://10.18.34.173:8080/api/etl/full-extract"))
                     .GET()
                     .build();
 
@@ -42,7 +42,6 @@ public class LambdaExtracao implements RequestHandler<Object, String> {
 
             String body = response.body();
 
-            // Configurar nome do arquivo
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
             String dataHoje = LocalDateTime.now().format(formatter);
 
@@ -50,7 +49,6 @@ public class LambdaExtracao implements RequestHandler<Object, String> {
 
             S3Client s3 = S3Client.builder().build();
 
-            // Criar requisição para upload
             PutObjectRequest putObjectRequest = PutObjectRequest.builder()
                     .bucket(NOME_BUCKET)
                     .key(nomeArquivo)
