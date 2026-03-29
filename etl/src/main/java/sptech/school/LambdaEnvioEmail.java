@@ -145,19 +145,19 @@ public class LambdaEnvioEmail implements RequestHandler<Object, String> {
                         </tr>
                         <tr>
                             <td>Qtd de material (entrega)</td>
-                            <td>%.2f</td>
+                            <td>%.2fkg</td>
                         </tr>
                         <tr>
                             <td>Qtd de material (retirada)</td>
-                            <td>%.2f</td>
+                            <td>%.2fkg</td>
                         </tr>
                         <tr>
                             <td><b>Peso total (Kg)</b></td>
-                            <td><b>%.2f</b></td>
+                            <td><b>%.2fkg</b></td>
                         </tr>
                         <tr>
                             <td>Peso de lata solta</td>
-                            <td>%.2f</td>
+                            <td>%.2fkg</td>
                         </tr>
                         <tr>
                             <td><b>Pagamento de Notas</b></td>
