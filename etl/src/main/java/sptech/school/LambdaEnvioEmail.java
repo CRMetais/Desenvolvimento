@@ -23,7 +23,7 @@ public class LambdaEnvioEmail implements RequestHandler<Object, String> {
 
     private final String NOME_BUCKET   = "testeetlcrmetais";
     private final String EMAIL_ORIGEM  = "email_origem@teste.com";
-    private final String EMAIL_SENHA   = "$4/=4D!nh0";
+    private final String EMAIL_SENHA   = "senha";
     private final String EMAIL_DESTINO = "email_destino@teste.com";
 
     @Override
