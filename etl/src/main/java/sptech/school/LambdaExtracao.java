@@ -31,7 +31,7 @@ public class LambdaExtracao implements RequestHandler<Object, String> {
 
             // Chamar endpoint ETL
             HttpRequest requisicao = HttpRequest.newBuilder()
-                    .uri(URI.create("http://10.18.34.173:8080/api/etl/full-extract"))
+                    .uri(URI.create("http://192.168.1.217:8080/api/etl/full-extract"))
                     .GET()
                     .build();
 

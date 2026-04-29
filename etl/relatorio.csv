@@ -1,0 +1,254 @@
+id,data,parceiro,produto,pesoKg,precoUnitario,valorTotalItem,tipo,rendimento
+2,2026-04-13,Metalúrgica Beta,Bateria KG,30,00,4,00,120,00,VENDA,
+1,2026-04-12,Vital,Aerosol,20,00,10,00,200,00,VENDA,
+1,2026-04-12,Vital,Aerosol Sujo,10,00,3,00,30,00,VENDA,
+21,2026-04-09,Carlos Eduardo Mendes,Lata,355,00,8,40,2982,00,COMPRA,781,00
+21,2026-04-09,Carlos Eduardo Mendes,Cavaco de inox,7,00,22,80,159,60,COMPRA,15,40
+21,2026-04-09,Carlos Eduardo Mendes,Bateria KG,2,00,3,50,7,00,COMPRA,1,00
+21,2026-04-09,Carlos Eduardo Mendes,Cobre de quarta,7,00,40,30,282,10,COMPRA,15,40
+21,2026-04-09,Carlos Eduardo Mendes,Bloco misto,7,00,1,40,9,80,COMPRA,11,20
+42,2026-04-09,Ana Beatriz Ferreira,Lata,480,00,8,40,4032,00,COMPRA,1056,00
+42,2026-04-09,Ana Beatriz Ferreira,Chumbo mole,9,00,5,30,47,70,COMPRA,19,80
+42,2026-04-09,Ana Beatriz Ferreira,Cobre misto,3,00,46,80,140,40,COMPRA,6,60
+42,2026-04-09,Ana Beatriz Ferreira,Lata,60,00,8,40,504,00,COMPRA,132,00
+42,2026-04-09,Ana Beatriz Ferreira,Radiador com cobre,7,00,23,80,166,60,COMPRA,15,40
+14,2026-04-09,Mariana Santos Oliveira,Lata,455,00,8,40,3822,00,COMPRA,1001,00
+14,2026-04-09,Mariana Santos Oliveira,Aerosol Sujo,3,00,2,00,6,00,COMPRA,3,00
+14,2026-04-09,Mariana Santos Oliveira,Inox,2,00,2,20,4,40,COMPRA,4,40
+14,2026-04-09,Mariana Santos Oliveira,Cavaco de inox,3,00,22,80,68,40,COMPRA,6,60
+14,2026-04-09,Mariana Santos Oliveira,Cobre de quarta,3,00,40,30,120,90,COMPRA,6,60
+35,2026-04-09,João Pedro Cavalcante,Lata,140,00,8,40,1176,00,COMPRA,308,00
+35,2026-04-09,João Pedro Cavalcante,Fio instalação,10,00,28,30,283,00,COMPRA,22,00
+35,2026-04-09,João Pedro Cavalcante,Perfil misto,2,00,10,30,20,60,COMPRA,4,40
+35,2026-04-09,João Pedro Cavalcante,Perfil pintado,9,00,10,40,93,60,COMPRA,19,80
+35,2026-04-09,João Pedro Cavalcante,Zamac bijuteria,6,00,3,30,19,80,COMPRA,13,20
+7,2026-04-09,Fernando Augusto Ribeiro,Lata,300,00,8,40,2520,00,COMPRA,660,00
+7,2026-04-09,Fernando Augusto Ribeiro,Zamac,10,00,5,00,50,00,COMPRA,22,00
+7,2026-04-09,Fernando Augusto Ribeiro,Bloco misto,6,00,1,40,8,40,COMPRA,9,60
+7,2026-04-09,Fernando Augusto Ribeiro,Fio instalação,8,00,28,30,226,40,COMPRA,17,60
+7,2026-04-09,Fernando Augusto Ribeiro,Aerosol Sujo,3,00,2,00,6,00,COMPRA,3,00
+28,2026-04-09,Patrícia Gomes Andrade,Lata,205,00,8,40,1722,00,COMPRA,451,00
+28,2026-04-09,Patrícia Gomes Andrade,Cavaco de metal,3,00,17,80,53,40,COMPRA,6,60
+28,2026-04-09,Patrícia Gomes Andrade,Roda,3,00,14,50,43,50,COMPRA,6,60
+28,2026-04-09,Patrícia Gomes Andrade,Cavaco de alumínio,2,00,2,80,5,60,COMPRA,0,40
+28,2026-04-09,Patrícia Gomes Andrade,Radiador de metal,4,00,13,40,53,60,COMPRA,7,20
+49,2026-04-09,Gustavo Henrique Martins,Lata,300,00,8,40,2520,00,COMPRA,660,00
+49,2026-04-09,Gustavo Henrique Martins,Radiador com cobre,10,00,23,80,238,00,COMPRA,22,00
+49,2026-04-09,Gustavo Henrique Martins,Bloco limpo,3,00,2,80,8,40,COMPRA,6,60
+49,2026-04-09,Gustavo Henrique Martins,Ferroso,8,00,0,70,5,60,COMPRA,3,20
+49,2026-04-09,Gustavo Henrique Martins,Cobre misto,3,00,46,80,140,40,COMPRA,6,60
+41,2026-04-08,Carlos Eduardo Mendes,Lata,140,00,8,40,1176,00,COMPRA,308,00
+41,2026-04-08,Carlos Eduardo Mendes,Ferroso,10,00,0,70,7,00,COMPRA,4,00
+41,2026-04-08,Carlos Eduardo Mendes,Radiador de metal,7,00,13,40,93,80,COMPRA,12,60
+41,2026-04-08,Carlos Eduardo Mendes,Bateria KG,10,00,3,50,35,00,COMPRA,5,00
+41,2026-04-08,Carlos Eduardo Mendes,Fio instalação,2,00,28,30,56,60,COMPRA,4,40
+13,2026-04-08,Ricardo Lopes da Silva,Lata,400,00,8,40,3360,00,COMPRA,880,00
+13,2026-04-08,Ricardo Lopes da Silva,Aerosol,5,00,8,40,42,00,COMPRA,8,00
+13,2026-04-08,Ricardo Lopes da Silva,Panela de inox,3,00,20,00,60,00,COMPRA,6,60
+13,2026-04-08,Ricardo Lopes da Silva,Zamac,4,00,5,00,20,00,COMPRA,8,80
+13,2026-04-08,Ricardo Lopes da Silva,Cavaco de alumínio,10,00,2,80,28,00,COMPRA,2,00
+34,2026-04-08,Mariana Santos Oliveira,Lata,320,00,8,40,2688,00,COMPRA,704,00
+34,2026-04-08,Mariana Santos Oliveira,Bloco BR,9,00,1,00,9,00,COMPRA,19,80
+34,2026-04-08,Mariana Santos Oliveira,Panela de inox,8,00,20,00,160,00,COMPRA,17,60
+34,2026-04-08,Mariana Santos Oliveira,Bateria KG,8,00,3,50,28,00,COMPRA,4,00
+34,2026-04-08,Mariana Santos Oliveira,Motor KG,3,00,3,30,9,90,COMPRA,0,60
+6,2026-04-08,Letícia Moura Almeida,Lata,345,00,8,40,2898,00,COMPRA,759,00
+6,2026-04-08,Letícia Moura Almeida,Chaparia,4,00,7,50,30,00,COMPRA,8,80
+6,2026-04-08,Letícia Moura Almeida,Inox,10,00,2,20,22,00,COMPRA,22,00
+6,2026-04-08,Letícia Moura Almeida,Panela mista,2,00,5,00,10,00,COMPRA,4,40
+6,2026-04-08,Letícia Moura Almeida,Radiador com cobre,5,00,23,80,119,00,COMPRA,11,00
+27,2026-04-08,Fernando Augusto Ribeiro,Lata,270,00,8,40,2268,00,COMPRA,594,00
+27,2026-04-08,Fernando Augusto Ribeiro,Bloco limpo,3,00,2,80,8,40,COMPRA,6,60
+27,2026-04-08,Fernando Augusto Ribeiro,Metal,10,00,31,80,318,00,COMPRA,12,00
+27,2026-04-08,Fernando Augusto Ribeiro,Chumbo mole,2,00,5,30,10,60,COMPRA,4,40
+27,2026-04-08,Fernando Augusto Ribeiro,Bateria KG,5,00,3,50,17,50,COMPRA,2,50
+48,2026-04-08,Patrícia Gomes Andrade,Lata,280,00,8,40,2352,00,COMPRA,616,00
+48,2026-04-08,Patrícia Gomes Andrade,Zamac bijuteria,7,00,3,30,23,10,COMPRA,15,40
+48,2026-04-08,Patrícia Gomes Andrade,Panela mista,9,00,5,00,45,00,COMPRA,19,80
+48,2026-04-08,Patrícia Gomes Andrade,Bloco BR,4,00,1,00,4,00,COMPRA,8,80
+48,2026-04-08,Patrícia Gomes Andrade,Perfil pintado,8,00,10,40,83,20,COMPRA,17,60
+20,2026-04-08,Camila Rodrigues Silva,Lata,80,00,8,40,672,00,COMPRA,176,00
+20,2026-04-08,Camila Rodrigues Silva,Cavaco de alumínio,5,00,2,80,14,00,COMPRA,1,00
+20,2026-04-08,Camila Rodrigues Silva,Radiador com cobre,10,00,23,80,238,00,COMPRA,22,00
+20,2026-04-08,Camila Rodrigues Silva,Aerosol,6,00,8,40,50,40,COMPRA,9,60
+20,2026-04-08,Camila Rodrigues Silva,Perfil natural,10,00,11,90,119,00,COMPRA,22,00
+12,2026-04-07,Ana Beatriz Ferreira,Lata,200,00,8,40,1680,00,COMPRA,440,00
+12,2026-04-07,Ana Beatriz Ferreira,Fio misto,10,00,14,30,143,00,COMPRA,22,00
+12,2026-04-07,Ana Beatriz Ferreira,Cavaco de metal,7,00,17,80,124,60,COMPRA,15,40
+12,2026-04-07,Ana Beatriz Ferreira,Bloco limpo,3,00,2,80,8,40,COMPRA,6,60
+12,2026-04-07,Ana Beatriz Ferreira,Motor de alumínio,9,00,7,30,65,70,COMPRA,19,80
+33,2026-04-07,Ricardo Lopes da Silva,Lata,145,00,8,40,1218,00,COMPRA,319,00
+33,2026-04-07,Ricardo Lopes da Silva,Cobre misto,5,00,46,80,234,00,COMPRA,11,00
+33,2026-04-07,Ricardo Lopes da Silva,Bloco limpo,2,00,2,80,5,60,COMPRA,4,40
+33,2026-04-07,Ricardo Lopes da Silva,Zamac,8,00,5,00,40,00,COMPRA,17,60
+33,2026-04-07,Ricardo Lopes da Silva,Chaparia,4,00,7,50,30,00,COMPRA,8,80
+5,2026-04-07,João Pedro Cavalcante,Lata,140,00,8,40,1176,00,COMPRA,308,00
+5,2026-04-07,João Pedro Cavalcante,Bloco limpo,9,00,2,80,25,20,COMPRA,19,80
+5,2026-04-07,João Pedro Cavalcante,Motor de alumínio,7,00,7,30,51,10,COMPRA,15,40
+5,2026-04-07,João Pedro Cavalcante,Aerosol,4,00,8,40,33,60,COMPRA,6,40
+5,2026-04-07,João Pedro Cavalcante,Cavaco de alumínio,5,00,2,80,14,00,COMPRA,1,00
+26,2026-04-07,Letícia Moura Almeida,Lata,365,00,8,40,3066,00,COMPRA,803,00
+26,2026-04-07,Letícia Moura Almeida,Cavaco de inox,10,00,22,80,228,00,COMPRA,22,00
+26,2026-04-07,Letícia Moura Almeida,Bronze,3,00,38,80,116,40,COMPRA,6,60
+26,2026-04-07,Letícia Moura Almeida,Chaparia,6,00,7,50,45,00,COMPRA,13,20
+26,2026-04-07,Letícia Moura Almeida,Inox,5,00,2,20,11,00,COMPRA,11,00
+47,2026-04-07,Fernando Augusto Ribeiro,Lata,185,00,8,40,1554,00,COMPRA,407,00
+47,2026-04-07,Fernando Augusto Ribeiro,Inox,3,00,2,20,6,60,COMPRA,6,60
+47,2026-04-07,Fernando Augusto Ribeiro,Roda,5,00,14,50,72,50,COMPRA,11,00
+47,2026-04-07,Fernando Augusto Ribeiro,Chaparia,4,00,7,50,30,00,COMPRA,8,80
+47,2026-04-07,Fernando Augusto Ribeiro,Fio instalação,10,00,28,30,283,00,COMPRA,22,00
+19,2026-04-07,Gustavo Henrique Martins,Lata,235,00,8,40,1974,00,COMPRA,515,00
+19,2026-04-07,Gustavo Henrique Martins,Cobre mel,10,00,50,90,509,00,COMPRA,22,00
+19,2026-04-07,Gustavo Henrique Martins,Bloco BR,6,00,1,00,6,00,COMPRA,13,20
+19,2026-04-07,Gustavo Henrique Martins,Metal,6,00,31,80,190,80,COMPRA,7,20
+19,2026-04-07,Gustavo Henrique Martins,Bronze,10,00,38,80,388,00,COMPRA,22,00
+40,2026-04-07,Camila Rodrigues Silva,Lata,260,00,8,40,2184,00,COMPRA,572,00
+40,2026-04-07,Camila Rodrigues Silva,Aerosol,8,00,8,40,67,20,COMPRA,12,80
+40,2026-04-07,Camila Rodrigues Silva,Panela de inox,5,00,20,00,100,00,COMPRA,11,00
+40,2026-04-07,Camila Rodrigues Silva,Lata,100,00,8,40,840,00,COMPRA,220,00
+40,2026-04-07,Camila Rodrigues Silva,Perfil misto,6,00,10,30,61,80,COMPRA,13,20
+11,2026-04-06,Carlos Eduardo Mendes,Lata,445,00,8,40,3738,00,COMPRA,979,00
+11,2026-04-06,Carlos Eduardo Mendes,Roda,2,00,14,50,29,00,COMPRA,4,40
+11,2026-04-06,Carlos Eduardo Mendes,Persiana,3,00,4,00,12,00,COMPRA,6,60
+11,2026-04-06,Carlos Eduardo Mendes,Bronze,7,00,38,80,271,60,COMPRA,15,40
+11,2026-04-06,Carlos Eduardo Mendes,Radiador com cobre,9,00,23,80,214,20,COMPRA,19,80
+32,2026-04-06,Ana Beatriz Ferreira,Lata,465,00,8,40,3906,00,COMPRA,1023,00
+32,2026-04-06,Ana Beatriz Ferreira,Bronze,4,00,38,80,155,20,COMPRA,8,80
+32,2026-04-06,Ana Beatriz Ferreira,Cavaco de inox,8,00,22,80,182,40,COMPRA,17,60
+32,2026-04-06,Ana Beatriz Ferreira,Aerosol,3,00,8,40,25,20,COMPRA,4,80
+32,2026-04-06,Ana Beatriz Ferreira,Panela,9,00,10,30,92,70,COMPRA,19,80
+4,2026-04-06,Mariana Santos Oliveira,Lata,65,00,8,40,546,00,COMPRA,143,00
+4,2026-04-06,Mariana Santos Oliveira,Persiana,6,00,4,00,24,00,COMPRA,13,20
+4,2026-04-06,Mariana Santos Oliveira,Motor KG,7,00,3,30,23,10,COMPRA,1,40
+4,2026-04-06,Mariana Santos Oliveira,Chumbo de roda,9,00,3,80,34,20,COMPRA,19,80
+4,2026-04-06,Mariana Santos Oliveira,Perfil natural,7,00,11,90,83,30,COMPRA,15,40
+25,2026-04-06,João Pedro Cavalcante,Lata,410,00,8,40,3444,00,COMPRA,902,00
+25,2026-04-06,João Pedro Cavalcante,Zamac,5,00,5,00,25,00,COMPRA,11,00
+25,2026-04-06,João Pedro Cavalcante,Radiador com cobre,5,00,23,80,119,00,COMPRA,11,00
+25,2026-04-06,João Pedro Cavalcante,Bloco misto,6,00,1,40,8,40,COMPRA,9,60
+25,2026-04-06,João Pedro Cavalcante,Panela,10,00,10,30,103,00,COMPRA,22,00
+46,2026-04-06,Letícia Moura Almeida,Lata,390,00,8,40,3276,00,COMPRA,858,00
+46,2026-04-06,Letícia Moura Almeida,Fio misto,4,00,14,30,57,20,COMPRA,8,80
+46,2026-04-06,Letícia Moura Almeida,Zamac,8,00,5,00,40,00,COMPRA,17,60
+46,2026-04-06,Letícia Moura Almeida,Bronze,5,00,38,80,194,00,COMPRA,11,00
+46,2026-04-06,Letícia Moura Almeida,Perfil misto,3,00,10,30,30,90,COMPRA,6,60
+18,2026-04-06,Patrícia Gomes Andrade,Lata,270,00,8,40,2268,00,COMPRA,594,00
+18,2026-04-06,Patrícia Gomes Andrade,Zamac bijuteria,9,00,3,30,29,70,COMPRA,19,80
+18,2026-04-06,Patrícia Gomes Andrade,Chumbo de roda,3,00,3,80,11,40,COMPRA,6,60
+18,2026-04-06,Patrícia Gomes Andrade,Cavaco de metal,4,00,17,80,71,20,COMPRA,8,80
+18,2026-04-06,Patrícia Gomes Andrade,Chumbo mole,7,00,5,30,37,10,COMPRA,15,40
+39,2026-04-06,Gustavo Henrique Martins,Lata,230,00,8,40,1932,00,COMPRA,506,00
+39,2026-04-06,Gustavo Henrique Martins,Perfil pintado,4,00,10,40,41,60,COMPRA,8,80
+39,2026-04-06,Gustavo Henrique Martins,Panela mista,4,00,5,00,20,00,COMPRA,8,80
+39,2026-04-06,Gustavo Henrique Martins,Cavaco de metal,4,00,17,80,71,20,COMPRA,8,80
+39,2026-04-06,Gustavo Henrique Martins,Roda,3,00,14,50,43,50,COMPRA,6,60
+31,2026-04-05,Carlos Eduardo Mendes,Lata,390,00,8,40,3276,00,COMPRA,858,00
+31,2026-04-05,Carlos Eduardo Mendes,Cobre de quarta,7,00,40,30,282,10,COMPRA,15,40
+31,2026-04-05,Carlos Eduardo Mendes,Radiador com cobre,6,00,23,80,142,80,COMPRA,13,20
+31,2026-04-05,Carlos Eduardo Mendes,Aerosol Sujo,8,00,2,00,16,00,COMPRA,8,00
+31,2026-04-05,Carlos Eduardo Mendes,Panela mista,10,00,5,00,50,00,COMPRA,22,00
+3,2026-04-05,Ricardo Lopes da Silva,Lata,500,00,8,40,4200,00,COMPRA,1100,00
+3,2026-04-05,Ricardo Lopes da Silva,Cavaco de metal,7,00,17,80,124,60,COMPRA,15,40
+3,2026-04-05,Ricardo Lopes da Silva,Radiador de metal,7,00,13,40,93,80,COMPRA,12,60
+3,2026-04-05,Ricardo Lopes da Silva,Metal,8,00,31,80,254,40,COMPRA,9,60
+3,2026-04-05,Ricardo Lopes da Silva,Zamac bijuteria,5,00,3,30,16,50,COMPRA,11,00
+24,2026-04-05,Mariana Santos Oliveira,Lata,120,00,8,40,1008,00,COMPRA,264,00
+24,2026-04-05,Mariana Santos Oliveira,Ferroso,9,00,0,70,6,30,COMPRA,3,60
+24,2026-04-05,Mariana Santos Oliveira,Cobre misto,8,00,46,80,374,40,COMPRA,17,60
+24,2026-04-05,Mariana Santos Oliveira,Cavaco de metal,6,00,17,80,106,80,COMPRA,13,20
+24,2026-04-05,Mariana Santos Oliveira,Aerosol,7,00,8,40,58,80,COMPRA,11,20
+45,2026-04-05,João Pedro Cavalcante,Lata,310,00,8,40,2604,00,COMPRA,682,00
+45,2026-04-05,João Pedro Cavalcante,Motor KG,7,00,3,30,23,10,COMPRA,2,80
+45,2026-04-05,João Pedro Cavalcante,Chumbo de roda,4,00,3,80,15,20,COMPRA,8,80
+45,2026-04-05,João Pedro Cavalcante,Cavaco de inox,6,00,22,80,136,80,COMPRA,13,20
+45,2026-04-05,João Pedro Cavalcante,Metal,3,00,31,80,95,40,COMPRA,3,60
+17,2026-04-05,Fernando Augusto Ribeiro,Lata,160,00,8,40,1344,00,COMPRA,352,00
+17,2026-04-05,Fernando Augusto Ribeiro,Perfil pintado,10,00,10,40,104,00,COMPRA,22,00
+17,2026-04-05,Fernando Augusto Ribeiro,Fio misto,9,00,14,30,128,70,COMPRA,19,80
+17,2026-04-05,Fernando Augusto Ribeiro,Roda,5,00,14,50,72,50,COMPRA,11,00
+17,2026-04-05,Fernando Augusto Ribeiro,Ferroso,7,00,0,70,4,90,COMPRA,2,80
+38,2026-04-05,Patrícia Gomes Andrade,Lata,365,00,8,40,3066,00,COMPRA,803,00
+38,2026-04-05,Patrícia Gomes Andrade,Chumbo de roda,10,00,3,80,38,00,COMPRA,22,00
+38,2026-04-05,Patrícia Gomes Andrade,Cobre de quarta,2,00,40,30,80,60,COMPRA,4,40
+38,2026-04-05,Patrícia Gomes Andrade,Bronze,10,00,38,80,388,00,COMPRA,22,00
+38,2026-04-05,Patrícia Gomes Andrade,Cavaco de inox,3,00,22,80,68,40,COMPRA,6,60
+10,2026-04-05,Camila Rodrigues Silva,Lata,305,00,8,40,2562,00,COMPRA,671,00
+10,2026-04-05,Camila Rodrigues Silva,Radiador de metal,4,00,13,40,53,60,COMPRA,7,20
+10,2026-04-05,Camila Rodrigues Silva,Metal,4,00,31,80,127,20,COMPRA,4,80
+10,2026-04-05,Camila Rodrigues Silva,Chaparia,4,00,7,50,30,00,COMPRA,8,80
+10,2026-04-05,Camila Rodrigues Silva,Fio instalação,3,00,28,30,84,90,COMPRA,6,60
+2,2026-04-04,Ana Beatriz Ferreira,Lata,445,00,8,40,3738,00,COMPRA,979,00
+2,2026-04-04,Ana Beatriz Ferreira,Cobre de quarta,10,00,40,30,403,00,COMPRA,22,00
+2,2026-04-04,Ana Beatriz Ferreira,Bloco BR,5,00,1,00,5,00,COMPRA,11,00
+2,2026-04-04,Ana Beatriz Ferreira,Bronze,10,00,38,80,388,00,COMPRA,22,00
+2,2026-04-04,Ana Beatriz Ferreira,Fio misto,8,00,14,30,114,40,COMPRA,17,60
+23,2026-04-04,Ricardo Lopes da Silva,Lata,485,00,8,40,4074,00,COMPRA,1067,00
+23,2026-04-04,Ricardo Lopes da Silva,Panela mista,4,00,5,00,20,00,COMPRA,8,80
+23,2026-04-04,Ricardo Lopes da Silva,Persiana,10,00,4,00,40,00,COMPRA,22,00
+23,2026-04-04,Ricardo Lopes da Silva,Cobre mel,8,00,50,90,407,20,COMPRA,17,60
+23,2026-04-04,Ricardo Lopes da Silva,Panela de inox,10,00,20,00,200,00,COMPRA,22,00
+44,2026-04-04,Mariana Santos Oliveira,Lata,205,00,8,40,1722,00,COMPRA,451,00
+44,2026-04-04,Mariana Santos Oliveira,Persiana,5,00,4,00,20,00,COMPRA,11,00
+44,2026-04-04,Mariana Santos Oliveira,Perfil natural,4,00,11,90,47,60,COMPRA,8,80
+44,2026-04-04,Mariana Santos Oliveira,Bloco misto,7,00,1,40,9,80,COMPRA,11,20
+44,2026-04-04,Mariana Santos Oliveira,Motor de alumínio,5,00,7,30,36,50,COMPRA,11,00
+16,2026-04-04,Letícia Moura Almeida,Lata,300,00,8,40,2520,00,COMPRA,660,00
+16,2026-04-04,Letícia Moura Almeida,Radiador de metal,3,00,13,40,40,20,COMPRA,5,40
+16,2026-04-04,Letícia Moura Almeida,Panela,2,00,10,30,20,60,COMPRA,4,40
+16,2026-04-04,Letícia Moura Almeida,Perfil misto,9,00,10,30,92,70,COMPRA,19,80
+16,2026-04-04,Letícia Moura Almeida,Chaparia,6,00,7,50,45,00,COMPRA,13,20
+37,2026-04-04,Fernando Augusto Ribeiro,Lata,220,00,8,40,1848,00,COMPRA,484,00
+37,2026-04-04,Fernando Augusto Ribeiro,Radiador com cobre,8,00,23,80,190,40,COMPRA,17,60
+37,2026-04-04,Fernando Augusto Ribeiro,Cavaco de alumínio,2,00,2,80,5,60,COMPRA,0,40
+37,2026-04-04,Fernando Augusto Ribeiro,Inox,8,00,2,20,17,60,COMPRA,17,60
+37,2026-04-04,Fernando Augusto Ribeiro,Perfil natural,9,00,11,90,107,10,COMPRA,19,80
+9,2026-04-04,Gustavo Henrique Martins,Lata,200,00,8,40,1680,00,COMPRA,440,00
+9,2026-04-04,Gustavo Henrique Martins,Cobre misto,4,00,46,80,187,20,COMPRA,8,80
+9,2026-04-04,Gustavo Henrique Martins,Panela,10,00,10,30,103,00,COMPRA,22,00
+9,2026-04-04,Gustavo Henrique Martins,Cobre mel,6,00,50,90,305,40,COMPRA,13,20
+9,2026-04-04,Gustavo Henrique Martins,Bateria KG,6,00,3,50,21,00,COMPRA,3,00
+30,2026-04-04,Camila Rodrigues Silva,Lata,400,00,8,40,3360,00,COMPRA,880,00
+30,2026-04-04,Camila Rodrigues Silva,Fio misto,7,00,14,30,100,10,COMPRA,15,40
+30,2026-04-04,Camila Rodrigues Silva,Perfil misto,5,00,10,30,51,50,COMPRA,11,00
+30,2026-04-04,Camila Rodrigues Silva,Fio instalação,3,00,28,30,84,90,COMPRA,6,60
+30,2026-04-04,Camila Rodrigues Silva,Chumbo de roda,3,00,3,80,11,40,COMPRA,6,60
+1,2026-04-03,Carlos Eduardo Mendes,Lata,300,00,8,40,2520,00,COMPRA,660,00
+1,2026-04-03,Carlos Eduardo Mendes,Perfil misto,9,00,10,30,92,70,COMPRA,19,80
+1,2026-04-03,Carlos Eduardo Mendes,Bateria KG,8,00,3,50,28,00,COMPRA,4,00
+1,2026-04-03,Carlos Eduardo Mendes,Ferroso,6,00,0,70,4,20,COMPRA,2,40
+1,2026-04-03,Carlos Eduardo Mendes,Roda,9,00,14,50,130,50,COMPRA,19,80
+22,2026-04-03,Ana Beatriz Ferreira,Lata,155,00,8,40,1302,00,COMPRA,341,00
+22,2026-04-03,Ana Beatriz Ferreira,Motor KG,9,00,3,30,29,70,COMPRA,1,80
+22,2026-04-03,Ana Beatriz Ferreira,Fio instalação,5,00,28,30,141,50,COMPRA,11,00
+22,2026-04-03,Ana Beatriz Ferreira,Motor de alumínio,2,00,7,30,14,60,COMPRA,4,40
+22,2026-04-03,Ana Beatriz Ferreira,Perfil pintado,10,00,10,40,104,00,COMPRA,22,00
+43,2026-04-03,Ricardo Lopes da Silva,Lata,350,00,8,40,2940,00,COMPRA,770,00
+43,2026-04-03,Ricardo Lopes da Silva,Cobre mel,4,00,50,90,203,60,COMPRA,8,80
+43,2026-04-03,Ricardo Lopes da Silva,Aerosol Sujo,4,00,2,00,8,00,COMPRA,4,00
+43,2026-04-03,Ricardo Lopes da Silva,Panela,9,00,10,30,92,70,COMPRA,19,80
+43,2026-04-03,Ricardo Lopes da Silva,Bloco limpo,8,00,2,80,22,40,COMPRA,17,60
+15,2026-04-03,João Pedro Cavalcante,Lata,215,00,8,40,1806,00,COMPRA,473,00
+15,2026-04-03,João Pedro Cavalcante,Motor KG,2,00,3,30,6,60,COMPRA,0,40
+15,2026-04-03,João Pedro Cavalcante,Bloco misto,7,00,1,40,9,80,COMPRA,11,20
+15,2026-04-03,João Pedro Cavalcante,Bateria KG,5,00,3,50,17,50,COMPRA,2,50
+15,2026-04-03,João Pedro Cavalcante,Panela mista,8,00,5,00,40,00,COMPRA,17,60
+36,2026-04-03,Letícia Moura Almeida,Lata,450,00,8,40,3780,00,COMPRA,990,00
+36,2026-04-03,Letícia Moura Almeida,Bloco misto,7,00,1,40,9,80,COMPRA,11,20
+36,2026-04-03,Letícia Moura Almeida,Persiana,5,00,4,00,20,00,COMPRA,11,00
+36,2026-04-03,Letícia Moura Almeida,Fio misto,7,00,14,30,100,10,COMPRA,15,40
+36,2026-04-03,Letícia Moura Almeida,Motor de alumínio,7,00,7,30,51,10,COMPRA,15,40
+8,2026-04-03,Patrícia Gomes Andrade,Lata,140,00,8,40,1176,00,COMPRA,308,00
+8,2026-04-03,Patrícia Gomes Andrade,Panela de inox,10,00,20,00,200,00,COMPRA,22,00
+8,2026-04-03,Patrícia Gomes Andrade,Chumbo mole,6,00,5,30,31,80,COMPRA,13,20
+8,2026-04-03,Patrícia Gomes Andrade,Cavaco de inox,10,00,22,80,228,00,COMPRA,22,00
+8,2026-04-03,Patrícia Gomes Andrade,Perfil pintado,2,00,10,40,20,80,COMPRA,4,40
+29,2026-04-03,Gustavo Henrique Martins,Lata,300,00,8,40,2520,00,COMPRA,660,00
+29,2026-04-03,Gustavo Henrique Martins,Perfil natural,3,00,11,90,35,70,COMPRA,6,60
+29,2026-04-03,Gustavo Henrique Martins,Persiana,8,00,4,00,32,00,COMPRA,17,60
+29,2026-04-03,Gustavo Henrique Martins,Bloco BR,6,00,1,00,6,00,COMPRA,13,20
+29,2026-04-03,Gustavo Henrique Martins,Ferroso,7,00,0,70,4,90,COMPRA,2,80
+50,2026-04-03,Camila Rodrigues Silva,Lata,260,00,8,40,2184,00,COMPRA,572,00
+50,2026-04-03,Camila Rodrigues Silva,Radiador de metal,8,00,13,40,107,20,COMPRA,16,00
+50,2026-04-03,Camila Rodrigues Silva,Aerosol,4,00,8,40,33,60,COMPRA,6,40
+50,2026-04-03,Camila Rodrigues Silva,Panela de inox,7,00,20,00,140,00,COMPRA,15,40
+50,2026-04-03,Camila Rodrigues Silva,Perfil natural,6,00,11,90,71,40,COMPRA,13,20
