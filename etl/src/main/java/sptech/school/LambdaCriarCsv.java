@@ -38,6 +38,13 @@ public class LambdaCriarCsv implements RequestHandler<Map<String, String>, Strin
                     + "?dataInicio=" + dataInicio
                     + "&dataFim=" + dataFim;
 
+
+//            Usar essa no deploy
+//            String url = System.getenv("BACKEND_URL") + "/api/historico/csv-extract"
+//                    + "?dataInicio=" + dataInicio
+//                    + "&dataFim=" + dataFim
+//                    + "&tipo=" + input.getOrDefault("tipo", "TODOS");
+
             HttpRequest requisicao = HttpRequest.newBuilder()
                     .uri(URI.create(url))
                     .GET()
