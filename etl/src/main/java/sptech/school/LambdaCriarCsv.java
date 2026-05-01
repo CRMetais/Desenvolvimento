@@ -14,9 +14,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-
 import java.nio.charset.StandardCharsets;
-
 import java.time.Duration;
 import java.util.Map;
 
@@ -28,22 +26,19 @@ public class LambdaCriarCsv implements RequestHandler<Map<String, String>, Strin
     public String handleRequest(Map<String, String> input, Context context) {
 
         try {
-
             String dataInicio = input.get("dataInicio");
             String dataFim = input.get("dataFim");
+            String tipo = input.getOrDefault("tipo", "TODOS");
 
             HttpClient cliente = HttpClient.newHttpClient();
 
-            String url = "http://localhost:8080/api/etl/full-extract"
+            // String backendUrl = System.getenv("BACKEND_URL");
+            String backendUrl = "http://localhost:8080";
+
+            String url = backendUrl + "/historico/csv-extract"
                     + "?dataInicio=" + dataInicio
-                    + "&dataFim=" + dataFim;
-
-
-//            Usar essa no deploy
-//            String url = System.getenv("BACKEND_URL") + "/api/historico/csv-extract"
-//                    + "?dataInicio=" + dataInicio
-//                    + "&dataFim=" + dataFim
-//                    + "&tipo=" + input.getOrDefault("tipo", "TODOS");
+                    + "&dataFim=" + dataFim
+                    + "&tipo=" + tipo;
 
             HttpRequest requisicao = HttpRequest.newBuilder()
                     .uri(URI.create(url))
@@ -56,10 +51,9 @@ public class LambdaCriarCsv implements RequestHandler<Map<String, String>, Strin
             );
 
             String json = response.body();
-
             String csv = converterParaCSV(json);
 
-            String nomeArquivo = "CSV-" + dataInicio + "-a-" + dataFim + ".csv";
+            String nomeArquivo = "CSV-" + tipo + "-" + dataInicio + "-a-" + dataFim + ".csv";
 
             S3Client s3 = S3Client.builder()
                     .credentialsProvider(DefaultCredentialsProvider.create())
@@ -91,11 +85,7 @@ public class LambdaCriarCsv implements RequestHandler<Map<String, String>, Strin
                             .getObjectRequest(getObjectRequest)
                             .build();
 
-            String urlDownload = presigner.presignGetObject(presignRequest)
-                    .url()
-                    .toString();
-
-            return urlDownload;
+            return presigner.presignGetObject(presignRequest).url().toString();
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -104,46 +94,32 @@ public class LambdaCriarCsv implements RequestHandler<Map<String, String>, Strin
     }
 
     private String converterParaCSV(String json) {
-
         StringBuilder csv = new StringBuilder();
-
-        csv.append("id,data,parceiro,produto,pesoKg,precoUnitario,valorTotalItem,tipo,rendimento\n");
+        csv.append("id,data,parceiro,produto,pesoKg,precoUnitario,total,rendimento,tipo\n");
 
         json = json.replace("[", "").replace("]", "");
-
         String[] linhas = json.split("},\\{");
 
         for (String linha : linhas) {
-
             linha = linha.replace("{", "").replace("}", "").replace("\"", "");
-
             String[] campos = linha.split(",");
 
-            String id = "";
-            String data = "";
-            String parceiro = "";
-            String produto = "";
-            String pesoKg = "";
-            String preco = "";
-            String valor = "";
-            String tipo = "";
-            String rendimento = "";
+            String id = "", data = "", parceiro = "", produto = "",
+                    pesoKg = "", preco = "", valor = "", tipo = "", rendimento = "";
 
             for (String campo : campos) {
-
                 String[] partes = campo.split(":", 2);
-
-                String chave = partes[0];
-                String valorCampo = partes.length > 1 ? partes[1] : "";
+                String chave = partes[0].trim();
+                String valorCampo = partes.length > 1 ? partes[1].trim() : "";
 
                 switch (chave) {
                     case "id": id = valorCampo; break;
-                    case "data": data = valorCampo.split("T")[0]; break;
+                    case "data": data = valorCampo; break;
                     case "parceiro": parceiro = valorCampo; break;
                     case "produto": produto = valorCampo; break;
-                    case "pesoKg": pesoKg = valorCampo; break;
-                    case "precoUnitario": preco = valorCampo; break;
-                    case "valorTotalItem": valor = valorCampo; break;
+                    case "peso": pesoKg = valorCampo; break;
+                    case "preco": preco = valorCampo; break;
+                    case "total": valor = valorCampo; break;
                     case "tipo": tipo = valorCampo; break;
                     case "rendimento":
                         rendimento = valorCampo.equals("null") ? "" : valorCampo;
@@ -152,15 +128,9 @@ public class LambdaCriarCsv implements RequestHandler<Map<String, String>, Strin
             }
 
             csv.append(String.join(",",
-                    id,
-                    data,
-                    parceiro,
-                    produto,
-                    formatar(pesoKg),
-                    formatar(preco),
-                    formatar(valor),
-                    tipo,
-                    formatar(rendimento)
+                    id, data, parceiro, produto,
+                    formatar(pesoKg), formatar(preco), formatar(valor),
+                    formatar(rendimento), tipo
             )).append("\n");
         }
 
