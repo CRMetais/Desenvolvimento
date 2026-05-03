@@ -20,7 +20,7 @@ import java.util.Map;
 
 public class LambdaCriarCsv implements RequestHandler<Map<String, String>, String> {
 
-    private final String NOME_BUCKET = "testeetlcsvcrmetais";
+    private final String NOME_BUCKET = System.getenv("BUCKET_NAME");
 
     @Override
     public String handleRequest(Map<String, String> input, Context context) {
@@ -32,8 +32,8 @@ public class LambdaCriarCsv implements RequestHandler<Map<String, String>, Strin
 
             HttpClient cliente = HttpClient.newHttpClient();
 
-            // String backendUrl = System.getenv("BACKEND_URL");
-            String backendUrl = "http://localhost:8080";
+            String backendUrl = System.getenv("BACKEND_URL");
+//            String backendUrl = "http://localhost:8080";
 
             String url = backendUrl + "/historico/csv-extract"
                     + "?dataInicio=" + dataInicio
